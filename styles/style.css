@@ -10,12 +10,14 @@ body {
   margin: 0;
   max-width: 99%;
   background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
-  position:relative;
-  min-height:100vh;
+  position: relative;
+  min-height: 100vh;
+  background-color: #1c0f1b;
+  background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
 }
 
 
-}
+
 
 /*body {*/
 
@@ -27,7 +29,7 @@ body {
 
 main {
   width: 100%;
-  min-height:100vh;
+  min-height: 100vh;
 }
 
 h1 {
@@ -94,9 +96,13 @@ a:active {
   width: 67.5%; */
 
 /*img {*/
+
 /*  width: 99%;*/
+
 /*  border: 1px solid pink;*/
+
 /*  margin: auto;*/
+
 /*}*/
 
 iframe {
@@ -119,8 +125,8 @@ iframe {
   left: 0;
   right: 0;
   height: 4em;
-  flex-wrap:wrap;
-  box-sizing:border-box;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .nav-item {
@@ -130,15 +136,15 @@ iframe {
   /*color:black;*/
   list-style: none;
   width: 3em;
-  font-weight:bold;
-  font-size:1.16em;
+  font-weight: bold;
+  font-size: 1.16em;
 }
 
 .nav {
   list-style: none;
-  flex-wrap:wrap;
-  position:fixed;
-  z-index:2;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 2;
 }
 
 .contact {
@@ -161,15 +167,16 @@ footer {
   bottom: 0;
   /*right: 0;*/
   width: 100%;
-  height:4em;
-  flex-wrap:wrap;
-  position:absolute;
+  height: 4em;
+  flex-wrap: wrap;
+  position: absolute;
   box-sizing: border-box;
 }
 
 .icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  
 }
 
 .thumbnail-gallery {
@@ -181,12 +188,19 @@ footer {
 }
 
 /*div {*/
+
 /*  padding: .25em 0em;*/
+
 /*  width: 25%;*/
+
 /*  text-align: center;*/
+
 /*  margin: .5em;*/
+
 /*  border: solid turquoise 2px;*/
+
 /*  border-radius: 20%;*/
+
 /*}*/
 
 .favicon {
@@ -217,22 +231,17 @@ footer {
 .album6 p {
   color: white;
 }
-
-body {
-  background-color: #1c0f1b;
-  background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-
-h1 {
-  text-align: center;
-  color: PaleVioletRed;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  flex:100%;
-  max-width:100%;
+  flex: 100%;
+  max-width: 100%;
+}
+
+.cutefloor {
+  border:none;
 }
