@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|IM+Fell+English+SC|Indie+Flower|Merriweather|Quicksand|Spirax');
+
+img {
+  /*float: right;*/
+}
+
+
+body {
+  background-color: black;
+  margin: 0;
+  max-width: 99%;
+  background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+  position:relative;
+  min-height:100vh;
+}
+
+
+}
+
+/*body {*/
+
+/*background-color: #020105;*/
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+/*}*/
+
+main {
+  width: 100%;
+  min-height:100vh;
+}
+
+h1 {
+  color: PaleVioletRed;
+  /*background-color: black;*/
+  font-family: spirax;
+  font-size: 3.8em;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  color: cyan;
+}
+
+p {
+  color: plum;
+  font-size: 1.2em;
+  font-size: 23px;
+  font-size: 200%;
+}
+
+ol {
+  color: turquoise;
+}
+
+ul {
+  font-family: quicksand;
+  color: turquoise;
+  list-style-type: upper-roman;
+}
+
+ol {
+  list-style-type: upper-roman;
+  font-family: quicksand;
+}
+
+/* the a tag is used to link things (a for anchor) */
+
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+
+a:visited {
+  color: turquoise;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+a:active {
+  color: violet;
+  text-decoration: none;
+}
+
+/* Image from google images with noncommercial usage rights */
+
+/* img:hover{
+  transition: width 2s;
+  width: 67.5%; */
+
+/*img {*/
+/*  width: 99%;*/
+/*  border: 1px solid pink;*/
+/*  margin: auto;*/
+/*}*/
+
+iframe {
+  float: right;
+}
+
+.navbar {
+  list-style: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: purple;
+  border-top: solid 13px pink;
+  border-bottom: solid 13px pink;
+  border-left: solid 8px #333;
+  border-right: solid 8px #333;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  flex-wrap:wrap;
+  box-sizing:border-box;
+}
+
+.nav-item {
+  align-items: flex-start;
+  margin-left: 7px;
+  text-align: center;
+  /*color:black;*/
+  list-style: none;
+  width: 3em;
+  font-weight:bold;
+  font-size:1.16em;
+}
+
+.nav {
+  list-style: none;
+  flex-wrap:wrap;
+  position:fixed;
+  z-index:2;
+}
+
+.contact {
+  /*background-image:background-color:turquoise;*/
+  background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  ;
+}
+
+footer {
+  background-color: white;
+  border-top: solid 13px #333;
+  border-bottom: solid 13px #333;
+  border-left: solid 8px pink;
+  border-right: solid 8px pink;
+  z-index: 12;
+  display: flex;
+  /*align-items: flex-end;*/
+  justify-content: space-between;
+  bottom: 0;
+  /*right: 0;*/
+  width: 100%;
+  height:4em;
+  flex-wrap:wrap;
+  position:absolute;
+  box-sizing: border-box;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail-gallery {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*div {*/
+/*  padding: .25em 0em;*/
+/*  width: 25%;*/
+/*  text-align: center;*/
+/*  margin: .5em;*/
+/*  border: solid turquoise 2px;*/
+/*  border-radius: 20%;*/
+/*}*/
+
+.favicon {
+  width: 99%;
+  border-radius: 27%
+}
+
+.album1,
+.album2,
+.album3,
+.album4,
+.album5,
+.album6 {
+  background-color: black;
+}
+
+.album1 h2,
+.album1 p,
+.album2 h2,
+.album2 p,
+.album3 h2,
+.album3 p,
+.album4 h2,
+.album4 p,
+.album5 h2,
+.album5 p,
+.album6 h2,
+.album6 p {
+  color: white;
+}
+
+body {
+  background-color: #1c0f1b;
+  background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+h1 {
+  text-align: center;
+  color: PaleVioletRed;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  flex:100%;
+  max-width:100%;
+}
