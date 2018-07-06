@@ -120,7 +120,7 @@ iframe {
   border-left: solid 8px #333;
   border-right: solid 8px #333;
   position: relative;
-  top: 0;
+ top: 0;
   left: 0;
   right: 0;
   height: 4em;
@@ -162,7 +162,7 @@ footer {
   z-index: 12;
   display: flex;
   /*align-items: flex-end;*/
-  justify-content: space-between;
+  justify-content: space-around;
   bottom: 0;
   /*right: 0;*/
   width: 100%;
@@ -170,6 +170,7 @@ footer {
   flex-wrap: wrap;
   position: absolute;
   box-sizing: border-box;
+  padding-top:0.45%;
 }
 
 .icon {
@@ -231,18 +232,18 @@ footer {
   color: white;
 }
 
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
+.pictures {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  flex: 100%;
-  max-width: 100%;
+.pic {
+  width:30%;
 }
 
-.cutefloor {
-  border: none;
+.pic1{
+  width:45%;
 }
+
+
