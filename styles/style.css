@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|IM+Fell+English+SC|Indie+Flower|Merriweather|Quicksand|Spirax');
 
-img {
-  /*float: right;*/
-}
+/*img {*/
 
+/*float: right;*/
+
+/*}*/
 
 body {
   background-color: black;
@@ -120,7 +121,7 @@ iframe {
   border-left: solid 8px #333;
   border-right: solid 8px #333;
   position: relative;
- top: 0;
+  top: 0;
   left: 0;
   right: 0;
   height: 4em;
@@ -170,7 +171,7 @@ footer {
   flex-wrap: wrap;
   position: absolute;
   box-sizing: border-box;
-  padding-top:0.45%;
+  padding-top: 0.45%;
 }
 
 .icon {
@@ -233,17 +234,47 @@ footer {
 }
 
 .pictures {
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .pic {
-  width:30%;
+  width: 30%;
 }
 
-.pic1{
-  width:45%;
+.pic1 {
+  width: 45%;
 }
 
+.icon {
+  display: none;
+}
 
+.nav button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 0;
+}
+
+@media screen and (max-width: 1035px) {
+  ul.nav li:not(:first-child) {
+    display: none;
+  }
+  ul.nav {
+    flex-direction: column;
+  }
+  ul.nav li.icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  ul.nav.responsive li {
+    display: block;
+  }
+}
